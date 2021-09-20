@@ -1,11 +1,10 @@
 import React from 'react';
-import CommentDetail from './CommentDetail';
 
 const ApprovalCard = props => {
     return (
         <div className="ui card">
             <div className="content">
-                Are you sure?
+                {props.children}
             </div>
             <div className="extra content">
                 <div className="ui two buttons">
